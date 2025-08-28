@@ -26,7 +26,7 @@ export default async function Image() {
           overflow: "hidden",
         }}
       >
-        {/* Background gradient with Farcaster purple and electric blue */}
+        {/* Background gradient with modern tech colors for ARQ Track */}
         <div
           style={{
             position: "absolute",
@@ -34,8 +34,8 @@ export default async function Image() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: "linear-gradient(135deg, #8A63D2 0%, #1E90FF 100%)",
-            opacity: 0.9,
+            background: "linear-gradient(135deg, #6366f1 0%, #14b8a6 50%, #0ea5e9 100%)",
+            opacity: 0.95,
           }}
         />
 
@@ -48,7 +48,7 @@ export default async function Image() {
             right: 0,
             bottom: 0,
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, rgba(138, 99, 210, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(30, 144, 255, 0.4) 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(20, 184, 166, 0.4) 0%, transparent 50%)",
           }}
         />
 
@@ -117,38 +117,39 @@ export default async function Image() {
             </div>
           </div>
 
-          {/* Project title with high contrast */}
+          {/* Project title with high contrast - mobile optimized */}
           <h1
             style={{
-              fontSize: PROJECT_TITLE.length > 25 ? "65px" : "72px",
+              fontSize: PROJECT_TITLE.length > 25 ? "68px" : "78px",
               fontWeight: "900",
               color: "#ffffff",
               textAlign: "center",
-              marginBottom: "40px",
-              lineHeight: 1.1,
-              letterSpacing: "-2px",
-              textShadow: "0 6px 20px rgba(0, 0, 0, 0.4)",
-              maxWidth: "1100px",
+              marginBottom: "32px",
+              lineHeight: 1.0,
+              letterSpacing: "-2.5px",
+              textShadow: "0 8px 24px rgba(0, 0, 0, 0.5)",
+              maxWidth: "1000px",
               fontFamily: "system-ui, -apple-system, sans-serif",
-              whiteSpace: PROJECT_TITLE.length > 40 ? "normal" : "nowrap",
-              paddingLeft: "20px",
-              paddingRight: "20px",
+              whiteSpace: "nowrap",
+              paddingLeft: "40px",
+              paddingRight: "40px",
             }}
           >
             {PROJECT_TITLE}
           </h1>
 
-          {/* Project description */}
+          {/* Project description - mobile readable */}
           <p
             style={{
-              fontSize: "36px",
+              fontSize: "42px",
               fontWeight: "600",
-              color: "rgba(255, 255, 255, 0.95)",
+              color: "rgba(255, 255, 255, 0.98)",
               textAlign: "center",
-              marginBottom: "56px",
-              lineHeight: 1.3,
-              textShadow: "0 3px 12px rgba(0, 0, 0, 0.4)",
-              maxWidth: "800px",
+              marginBottom: "48px",
+              lineHeight: 1.2,
+              letterSpacing: "-0.5px",
+              textShadow: "0 4px 16px rgba(0, 0, 0, 0.5)",
+              maxWidth: "900px",
               fontFamily: "system-ui, -apple-system, sans-serif",
             }}
           >
@@ -187,7 +188,7 @@ export default async function Image() {
             </svg>
             <span
               style={{
-                fontSize: "26px",
+                fontSize: "28px",
                 fontWeight: "700",
                 color: "#ffffff",
                 fontFamily: "system-ui, -apple-system, sans-serif",
